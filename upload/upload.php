@@ -15,7 +15,10 @@
 
 
 <?php
-
+ /*
+ Crie uma pasta chamada arquivos dentro de upload, lá vai ser onde os seus arquivos vão ser enviados.
+ Caso queira colocar um outro nome de pasta basta trocar o valor do $dir para o nome da pasta correta
+ */
 $dir = "arquivos/";
 $file = $_FILES["arquivo"];
 
